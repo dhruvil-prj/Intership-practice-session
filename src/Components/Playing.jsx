@@ -1,13 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-export const Teams = () => {
+export const Playing = () => {
   
-  const TeamDetail = useParams().name 
+  const { teamName } = useParams();
 
   return (
     <div style={{textAlign:"center"}}>
-      <h1>WATCHING....{TeamDetail}</h1>
+      <h1>Playing....{teamName}</h1>
     </div>
   );
 };

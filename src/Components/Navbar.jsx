@@ -37,7 +37,7 @@ Navbar = () => {
               </Link>
             </li>
             <li class="nav-item active">
-              <Link class="nav-link" to="/TeamDetail">
+              <Link class="nav-link" to="/teamDetails">
                 IPL TEAMS
               </Link>
             </li>

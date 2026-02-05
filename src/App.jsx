@@ -8,8 +8,9 @@ import { NetflixShows } from "./Components/NetflixShows";
 import { Navbar } from "./Components/Navbar";
 import { HomeComponent } from "./Components/HomeComponent";
 import { ErrorNotFound } from "./Components/ErrorNotFound";
-import { Watch } from "./components/Watch";
+import { Watch } from "./Components/Watch";
 import { TeamDetail } from './Components/TeamDetail';
+import { Playing } from './Components/Playing';
 
 
 function App() {
@@ -21,16 +22,15 @@ function App() {
             <Routes>
         <Route path="/netflixhome" element={<NetflixHome />}></Route>
         <Route path="/netflixmovies" element={<NetflixMovies />}></Route>
-        <Route path="/TeamDetails" element={<TeamDetail />}></Route>
         <Route path="/netflixshows" element={<NetflixShows />}></Route>
         <Route path="/" element = {<HomeComponent/>}></Route>
         <Route path="/watch/:name" element = {<Watch/>}></Route>
-        <Route path="/Teams/:name" element = {<Watch/>}></Route>
         <Route path="/*" element = {<ErrorNotFound/>}></Route>
+        <Route path="/teamDetails" element={<TeamDetail />}></Route>
+        <Route path="/playing/:teamName" element={<Playing />}></Route>
       </Routes>
       </div>
   )
 }
 
 export default App
-
