@@ -12,7 +12,7 @@ export const Playing = () => {
       titles: 1,
       wins: 23,
       losses: 10,
-      players: ["Shubman Gill", "Rashid Khan", "David Miller"]
+      players: ["Shubman Gill", "Rashid Khan", "David Miller", "Sai Sudharsan", "Rahul Tewatia", "Shahrukh Khan", "Umesh Yadav", "Spencer Johnson", "Noor Ahmad", "Mohit Sharma"]
     },
     {
       name: "CSK",
@@ -20,15 +20,15 @@ export const Playing = () => {
       titles: 5,
       wins: 131,
       losses: 91,
-      players: ["MS Dhoni", "Ravindra Jadeja", "Ruturaj Gaikwad"]
+      players: ["Ruturaj Gaikwad", "MS Dhoni", "Ravindra Jadeja", "Daryl Mitchell", "Shivam Dube", "Rachin Ravindra", "Matheesha Pathirana", "Shardul Thakur", "Deepak Chahar", "Ajinkya Rahane"]
     },
     {
       name: "RCB",
       logo: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Royal_Challengers_Bengaluru_Logo.svg/250px-Royal_Challengers_Bengaluru_Logo.svg.png",
-      titles: 0,
+      titles: 1,
       wins: 114,
       losses: 120,
-      players: ["Virat Kohli", "Faf du Plessis", "Glenn Maxwell"]
+      players: ["Faf du Plessis", "Virat Kohli", "Glenn Maxwell", "Rajat Patidar", "Cameron Green", "Dinesh Karthik", "Mohammed Siraj", "Will Jacks", "Lockie Ferguson", "Yash Dayal"]
     },
     {
       name: "MI",
@@ -36,7 +36,7 @@ export const Playing = () => {
       titles: 5,
       wins: 138,
       losses: 109,
-      players: ["Rohit Sharma", "Hardik Pandya", "Jasprit Bumrah"]
+      players: ["Hardik Pandya", "Rohit Sharma", "Jasprit Bumrah", "Suryakumar Yadav", "Ishan Kishan", "Tilak Varma", "Tim David", "Gerald Coetzee", "Piyush Chawla", "Mohammad Nabi"]
     },
     {
       name: "RR",
@@ -44,7 +44,7 @@ export const Playing = () => {
       titles: 1,
       wins: 110,
       losses: 106,
-      players: ["Sanju Samson", "Jos Buttler", "Yashasvi Jaiswal"]
+      players: ["Sanju Samson", "Jos Buttler", "Yashasvi Jaiswal", "Trent Boult", "Ravichandran Ashwin", "Yuzvendra Chahal", "Riyan Parag", "Dhruv Jurel", "Shimron Hetmyer", "Sandeep Sharma"]
     },
     {
       name: "KKR",
@@ -52,7 +52,7 @@ export const Playing = () => {
       titles: 3,
       wins: 130,
       losses: 115,
-      players: ["Shreyas Iyer", "Andre Russell", "Rinku Singh"]
+      players: ["Shreyas Iyer", "Andre Russell", "Rinku Singh", "Sunil Narine", "Mitchell Starc", "Venkatesh Iyer", "Varun Chakravarthy", "Phil Salt", "Nitish Rana", "Harshit Rana"]
     },
     {
       name: "SRH",
@@ -60,7 +60,7 @@ export const Playing = () => {
       titles: 1,
       wins: 80,
       losses: 80,
-      players: ["Pat Cummins", "Travis Head", "Heinrich Klaasen"]
+      players: ["Pat Cummins", "Travis Head", "Heinrich Klaasen", "Abhishek Sharma", "Bhuvneshwar Kumar", "Aiden Markram", "T Natarajan", "Abdul Samad", "Nitish Kumar Reddy", "Jaydev Unadkat"]
     },
     {
       name: "LSG",
@@ -68,7 +68,7 @@ export const Playing = () => {
       titles: 0,
       wins: 20,
       losses: 15,
-      players: ["KL Rahul", "Marcus Stoinis", "Nicholas Pooran"]
+      players: ["KL Rahul", "Nicholas Pooran", "Marcus Stoinis", "Quinton de Kock", "Ravi Bishnoi", "Krunal Pandya", "Deepak Hooda", "Ayush Badoni", "Mayank Yadav", "Mohsin Khan"]
     },
     {
       name: "PBSK",
@@ -76,7 +76,7 @@ export const Playing = () => {
       titles: 0,
       wins: 100,
       losses: 120,
-      players: ["Shikhar Dhawan", "Sam Curran", "Liam Livingstone"]
+      players: ["Shikhar Dhawan", "Sam Curran", "Liam Livingstone", "Arshdeep Singh", "Kagiso Rabada", "Jonny Bairstow", "Jitesh Sharma", "Harshal Patel", "Shashank Singh", "Ashutosh Sharma"]
     },
     {
       name: "DC",
@@ -84,7 +84,7 @@ export const Playing = () => {
       titles: 0,
       wins: 110,
       losses: 130,
-      players: ["Rishabh Pant", "David Warner", "Axar Patel"]
+      players: ["Rishabh Pant", "David Warner", "Axar Patel", "Kuldeep Yadav", "Tristan Stubbs", "Prithvi Shaw", "Anrich Nortje", "Ishant Sharma", "Khaleel Ahmed", "Mukesh Kumar"]
     }
   ];
 

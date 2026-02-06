@@ -41,6 +41,26 @@ Navbar = () => {
                 IPL TEAMS
               </Link>
             </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/fuctiondemo1">
+                FunctionDemo
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/UseStateDemo1">
+                UseStateDemo1
+              </Link>
+            </li>
+             <li class="nav-item active">
+              <Link class="nav-link" to="/UseStateDemo2">
+                UseStateDemo2
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/UseStateDemo3">
+                UseStateDemo3
+              </Link>
+            </li>
             
 
           </ul>
