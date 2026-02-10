@@ -1,4 +1,5 @@
 import React from 'react'
+import { CardComponent } from './CardComponent'
 
 export const FunctionDemo1 = () => {
 
@@ -14,6 +15,7 @@ export const FunctionDemo1 = () => {
         <h1>FunctionDemo1</h1>
         <button onClick={test}>Click</button>
         <button onClick={()=>test2(100)}>Click2</button>
+        <CardComponent title="Fun demo 1" description="gg th tt jj tg"></CardComponent>
     </div>
   )
 }

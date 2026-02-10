@@ -15,6 +15,7 @@ import { FunctionDemo1 } from './Components/FunctionDemo1';
 import { UseStateDemo1 } from './Components/UseStateDemo1';
 import { UseStateDemo2 } from './Components/UseStateDemo2';
 import { UseStateDemo3 } from './Components/UseStateDemo3';
+import { Employees } from './Components/Employees';
 
 
 
@@ -37,7 +38,7 @@ function App() {
         <Route path="/useStateDemo1" element={<UseStateDemo1 />}></Route>
         <Route path="/useStateDemo2" element={<UseStateDemo2 />}></Route>
         <Route path="/useStateDemo3" element={<UseStateDemo3 />}></Route>
-        
+        <Route path="/Employees" element={<Employees />}></Route>
       </Routes>
       </div>
   )
