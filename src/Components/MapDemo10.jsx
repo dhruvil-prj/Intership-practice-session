@@ -23,12 +23,12 @@ export const MapDemo10 = () => {
             <tbody>
               {
                 student.map((st)=>{
-                  return <tr>
+                  return <tr key={st.id}>
                     <td>{st.id}</td>
                     <td>{st.name}</td>
-                    <img src={sarukh} alt="sarukh.png" width="120" />
+                    <td><img src={sarukh} alt="sarukh.png" width="120" /></td>
                     <td style={{color: st.age>24 ? "red" :"black"}}>{st.age}</td>
-                    <td style={{backgroundImage: "url('sarukh.png')"}}>{st.marks}</td>
+                    <td style={{backgroundImage: `url(${sarukh})`}}>{st.marks}</td>
                     <td>{st.gender}</td>
                     <td>{st.city}</td>
                   </tr>

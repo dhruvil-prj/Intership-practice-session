@@ -20,7 +20,7 @@ export const EmployeesList = (props) => {
             <tbody>
                 {
                     props.employees.map((emp)=>{                 
-                        return <tr>
+                        return <tr key={emp.id}>
                             <td>{emp.id}</td>
                             <td>{emp.name}</td>
                             <td>{emp.age}</td>

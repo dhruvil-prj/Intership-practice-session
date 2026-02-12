@@ -66,7 +66,31 @@ Navbar = () => {
                 Employees
               </Link>
             </li>
-            
+            <li className="nav-item active">
+              <Link className="nav-link" to="/Props1">
+                Props1
+              </Link>
+            </li>
+            <li className="nav-item active">
+              <Link className="nav-link" to="/input">
+                Input
+              </Link>
+            </li>
+            <li className="nav-item active">
+              <Link className="nav-link" to="/form1">
+                Form1
+              </Link>
+            </li>
+            <li className="nav-item active">
+              <Link className="nav-link" to="/form2">
+                Form2
+              </Link>
+            </li>
+            <li className="nav-item active">
+              <Link className="nav-link" to="/form3">
+                Form3
+              </Link>
+            </li>
 
           </ul>
         </div>

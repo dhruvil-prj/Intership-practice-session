@@ -9,8 +9,8 @@ export const UseStateDemo3 = () => {
         <div style={{textAlign:"center"}}>
             <h1>UseStateDemo3</h1>
             {
-                users.map((u)=>{
-                    return <li>{u}</li>
+                users.map((u, index)=>{
+                    return <li key={index}>{u}</li>
                 })
             
             }
